@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design QA comparison</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #111827; color: white; font: 14px system-ui, sans-serif; }
+      section { padding: 18px; border-bottom: 1px solid #374151; }
+      h2 { margin: 0 0 12px; font-size: 18px; }
+      .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+      figure { margin: 0; }
+      figcaption { margin-bottom: 8px; color: #d1d5db; }
+      img { display: block; width: 100%; height: auto; background: white; }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2>Дизайн 1</h2>
+      <div class="pair">
+        <figure><figcaption>Макет</figcaption><img src="/design-references/design-1.png" alt="Макет дизайна 1"></figure>
+        <figure><figcaption>Реализация</figcaption><img src="/qa/design-1-viewport.png" alt="Реализация дизайна 1"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>Дизайн 2</h2>
+      <div class="pair">
+        <figure><figcaption>Макет</figcaption><img src="/design-references/design-2.png" alt="Макет дизайна 2"></figure>
+        <figure><figcaption>Реализация</figcaption><img src="/qa/design-2-viewport.png" alt="Реализация дизайна 2"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>Дизайн 3</h2>
+      <div class="pair">
+        <figure><figcaption>Макет</figcaption><img src="/design-references/design-3.png" alt="Макет дизайна 3"></figure>
+        <figure><figcaption>Реализация</figcaption><img src="/qa/design-3-viewport.png" alt="Реализация дизайна 3"></figure>
+      </div>
+    </section>
+  </body>
+</html>
